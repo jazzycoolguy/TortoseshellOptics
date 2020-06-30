@@ -1,0 +1,151 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+header {
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png') no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+img {
+  border-style: none;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .67em 0;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-height: 20148px) and (max-width: 1536px) {
+  header {
+    height: 20rem;
+  }
+
+  .container {
+    max-width: 740px;
+  }
+
+  .main-banner {
+    margin-top: 5rem;
+  }
+  .service {
+    margin: 3rem;
+    width: 2.5rem;
+    height: 4rem;
+  }
+  .service img {
+    width: 3rem;
+    height: 2.5rem;
+  }
+
+  .info p {
+    font-size: 0.75rem;
+  }
+
+  footer {
+    padding: 2rem 1rem;
+  }
+}
